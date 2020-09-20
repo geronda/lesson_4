@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Black.woff2") format("woff2"),
+    url("../fonts/Gilroy-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLight.woff2") format("woff2"),
+    url("../fonts/Gilroy-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLightItalic.woff2") format("woff2"),
+    url("../fonts/Gilroy-UltraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  font-size: 16px;
+  font-family: "Gilroy";
+}
+/* -------------- */
+.header {
+  background-color: bisque;
+}
+.navigation {
+}
+.header__navigation {
+}
+.header__link {
+}
+.main {
+}
+.main__title {
+  font-size: 35px;
+  text-align: center;
+}
+.roboto {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.roboto__title,
+.gilroy__title {
+  font-size: 30px;
+}
+
+.roboto__subtitle,
+.gilroy__subtitle,
+.page-navigation__title {
+  font-size: 25px;
+  line-height: 60px;
+}
+.font-first {
+  font-size: 9px;
+}
+.font-second {
+  font-size: 14px;
+}
+.font-three {
+  font-size: 19px;
+}
+.decoration-1 {
+  text-decoration: none;
+}
+.decoration-2 {
+  text-decoration: underline;
+}
+.decoration-3 {
+  text-decoration: overline;
+}
+.decoration-4 {
+  text-decoration: line-through;
+}
+.heihg-1 {
+  line-height: 20px;
+  background-color: burlywood;
+}
+.heihg-2 {
+  line-height: 25px;
+  background-color: rgb(158, 147, 134);
+}
+.heihg-3 {
+  line-height: 30px;
+  background-color: burlywood;
+}
+.color-1 {
+  color: red;
+}
+.color-2 {
+  color: green;
+}
+.align-1 {
+  text-align: left;
+}
+.align-2 {
+  text-align: right;
+}
+.align-3 {
+  text-align: center;
+}
+.align-4 {
+  text-align: justify;
+}
+.case-1 {
+  text-transform: uppercase;
+}
+.case-2 {
+  text-transform: lowercase;
+}
+.case-3 {
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.space {
+  text-align: left;
+}
+.space-1 {
+  letter-spacing: normal;
+}
+.space-2 {
+  letter-spacing: 2px;
+}
+.space-3 {
+  word-spacing: 15px;
+}
+.space-4 {
+  text-indent: 40px;
+}
+.shadow-1 {
+  text-shadow: 2px 2px 5px rgba(60, 105, 228, 0.712);
+}
+.shadow-2 {
+  font-size: 20px;
+  text-shadow: 1px 1px 1px rgb(243, 79, 15);
+}
+.page-navigation {
+  text-align: center;
+}
+.footer {
+  background-color: khaki;
+  text-align: center;
+}
+.footer__link {
+  line-height: 35px;
+}
+.page-navigation {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.page-navigation a {
+  font-size: 18px;
+  line-height: 24px;
+}
+.navigation {
+  text-align: right;
+}
+.thin {
+  font-weight: 100;
+}
+.ligth {
+  font-weight: 300;
+}
+.normal {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.black {
+  font-weight: 900;
+}
+.style-1 {
+  font-style: italic;
+}
+.style-2 {
+  font-style: normal;
+}
+.gilroy {
+  text-align: center;
+}
+.bold {
+  font-weight: 700;
+}
+.roboto__title,
+.gilroy__title {
+  line-height: 70px;
+}
+.ultralight {
+  font-weight: 200;
+}
+.opacity-1 {
+  color: black;
+}
+.opacity-2 {
+  color: rgba(0, 0, 0, 0.575);
+}
+.opacity-3 {
+  color: rgba(0, 0, 0, 0.233);
+}
+.opacity-4 {
+  color: rgba(0, 0, 0, 0.185);
+}
+.pictures {
+  text-align: right;
+}
+.pictures-1 {
+  text-align: center;
+}
+.color-b {
+  background-color: burlywood;
+}
